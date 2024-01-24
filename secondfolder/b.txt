@@ -1,1 +1,14 @@
-ad
+
+
+git checkout 3183075ddcbb1e82b55efaa2d864dfd7ce8546d1
+result ,head is deattched from main branch
+git checkout master is to return to main branch, or click the current branch with GUI github desktop
+
+--gitlog oneline is to show the commit history in one line
+can also click the Github interface and click commit history
+
+video   
+https://www.linkedin.com/learning/git-essential-training-19417064/revert-to-an-old-state?resume=false&u=42436220
+
+git revert 3183075ddcbb1e82b55efaa2d864dfd7ce8546d1 is to revert to the previous commit
+q key to quit the log in commit
