@@ -2,3 +2,15 @@ adasdfasfafds
 
 
 this is a new <i class="fa fa-line-chart" aria-hidden="true"></i>
+
+git pull (get the lastest in the remote repo)
+
+git push (push your changes to the remote repo)-- if not working desktop git
+
+git add . (add all the changes to the staging area)
+
+git commit -m "message" (commit the changes to the local repo)
+
+
+
+git checkout 858223adcac47288c44c4c07fbc3938773d778b8 (checkout a specific commit)
