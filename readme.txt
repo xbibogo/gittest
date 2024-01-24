@@ -5,3 +5,7 @@ this is to test <i class="fa fa-git
 git status      
 
 git log
+
+git add .
+
+git commit -m "message"
