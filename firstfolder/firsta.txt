@@ -14,3 +14,7 @@ git commit -m "message" (commit the changes to the local repo)
 
 
 git checkout 858223adcac47288c44c4c07fbc3938773d778b8 (checkout a specific commit)
+
+
+
+rename a file, remeber to do git add . and git commit -m "message" ..not to use the VScode native branching system
