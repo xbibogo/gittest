@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background: #1a4341;
+        display: grid;
+        place-items: center;
+      }
+      .virus {
+        width: 100px;
+        height: 100px;
+        background: #f3ac3c;
+        border-radius: 50%;
+        position: relative;
+      }
+      .spots {
+        width: 10px;
+        height: 10px;
+        background: #998235;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        left: 70px;
+        box-shadow: -25px 50px 0 5px #998235, -40px 10px 0 10px #998235;
+        z-index: 100;
+      }
+      body::before,
+      body::after {
+        content: "";
+        position: absolute;
+        width: 180px;
+        height: 10px;
+        background: #f3ac3c;
+        border-radius: 4px;
+        top: 50px;
+        left: 719px;
+        transform: rotate(30deg);
+        z-index: 50;
+      }
+      body::after {
+        top: 50px;
+        left: 769px;
+        transform: rotate(-30deg);
+        z-index: 50;
+      }
+      .virus::after {
+        content: "";
+        position: absolute;
+        background: #f3ac3c;
+        border-radius: 4px;
+        top: -50px;
+        left: 45px;
+        width: 10px;
+        height: 180px;
+        transform: none;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="virus">
+      <div class="spots"></div>
+    </div>
+  </body>
+</html>
