@@ -9,6 +9,7 @@ git log
 git add .
 
 git commit -m "message"
+add
 
 
 https://www.linkedin.com/learning/learning-git-and-github-23011330/understanding-github-flow?resume=false
